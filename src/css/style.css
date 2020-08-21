@@ -26,31 +26,37 @@ body
     display: grid;
     grid-template-columns: auto auto auto;
     background-color:rgb(255, 255, 255);
-    padding: 10px;
+    padding: 10px;    
+    grid-gap: 5%;
+
+    
   }
   .grid-item {
     background-color:rgb(165, 42, 42);
     border: 1px solid rgb(0, 0, 0);
     padding: 20px;
-    font-size: 1.9em;
+    font-size: 1.5em;
     color:rgb(255, 205, 0);
     text-align: center;
     text-decoration: none;
-    margin: 1%;
     box-shadow: 1px 1px 4px rgb(0, 0, 0);
     border-radius: 5px;
     font-family: "opensans";
+    display: table;
+
 
 }
   .grid-item:hover {
     background-color:rgb(255, 205, 0);
     border:1px solid rgb(165, 42, 42);
     padding: 20px;
-    font-size: 1.9em;
+    font-size: 1.5em;
     color:rgb(165, 42, 42);
     text-align: center;
-    margin: 1%;
     box-shadow: 1px 1px 4px rgb(0, 0, 0);
 
 
+
   }
+  
+  
