@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ételrendelés</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">BurgerLand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#">Elérhetőség</a>
+                <a class="nav-link" href="#">Étlap</a>
+                <a class="nav-link" href="#">Akciók</a>
+                <a class="nav-link" href="#">Megrendelés</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Belépés</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="block-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h3>Hamburger rendelés</h3>
+                    <form action="">
+                        <div class="form group">
+                            <label for="">Feltét</label>
+                            <input type="text" name="top-input" class="form-control">
+                        </div>
+                        <div class="form group">
+                            <label for="">Mennyiség</label>
+                            <input type="number" name="amount-input" value="1" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            Fizetendő: <span class="show-amount">0</span> Ft
+                        </div>
+                        <button type="button" onclick="calcAmount()" class="btn btn-primary">Megrendelés</button>
+                    </form>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
